@@ -12,10 +12,19 @@
     "autoprefixer": "10.4.15",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
+    "fs-extra": "^11.1.1",
+    "hls.js": "^0.13.2",
     "next": "13.4.19",
+    "plyr": "^3.6.12",
     "postcss": "8.4.29",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hls-player": "^3.0.7",
     "tailwindcss": "3.3.3"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
   }
 }
